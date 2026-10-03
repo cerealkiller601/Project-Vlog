@@ -3,14 +3,25 @@ using UnityEngine.InputSystem;
 
 public class playerMovement : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    InputAction moveAround;
+    [SerializeField] float sprintSpeed;
+
+    private void Awake()
+    {
+
+    }
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
+    {
+        
+    }
+
+    private void FixedUpdate()
     {
         
     }
